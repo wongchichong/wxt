@@ -1,0 +1,9 @@
+{
+  "extends": ["../../tsconfig.base.json", "./.wxt/tsconfig.json"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "woby"
+  },
+  "include": ["./**/*.ts", "./**/*.tsx", "./modules/**/*.ts"],
+  "exclude": ["node_modules/**", "dist/**"]
+}
